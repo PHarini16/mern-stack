@@ -1,0 +1,56 @@
+h2, ul {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p{
+    color: palevioletred;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h1{
+    font-size: 50px;
+    font-family: fantasy;
+    margin: 50px;0px;0px;0px;
+    text-align: center;
+    color: plum;
+}
+*{
+    background-color: peachpuff;
+}
+.Grid-container {
+  display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    padding: 10px;
+    background-color: palegoldenrod;
+    margin: 20px; 50px; 50px; 50px;
+}
+.item1,.item2,.item3,.item4,.item5{
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  border-radius: 30px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+}
+.Container {
+    display: flex;
+    background-color: lightcyan;
+    margin: 20px; 50px; 50px; 50px;
+    padding: 20px;
+    border-radius: 30px;
+}
+.box1, .box2, .box3 {
+    flex : 1 1 calc(33.33% - 30px);
+    background-color: lightpink;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    margin-right: 20px;
+}
